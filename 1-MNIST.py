@@ -1,5 +1,5 @@
 # 安装 TensorFlow
-
+# 这次可以用GPU运算
 import tensorflow as tf
 mnist = tf.keras.datasets.mnist
 
