@@ -1,7 +1,5 @@
 # 安装 TensorFlow
 # 这次可以用GPU运算
-import os
-os.environ["CUDA_VISIBLE_DEVICES"]="-1" 
 import tensorflow as tf
 mnist = tf.keras.datasets.mnist
 
